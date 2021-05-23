@@ -5,5 +5,13 @@ const traineeGrades = {
 }
 
 // Prints
+for(key in traineeGrades){
+  if(key.length<6){
+    let touppercasename = key.toUpperCase();
+     console.log(touppercasename + "-" + traineeGrades[key] );
+  }
+ 
+}
+// (`${to}`)
 // TOM - 20
 // ABDUL - 19
